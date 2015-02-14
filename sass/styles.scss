@@ -36,6 +36,7 @@ header {
       border-radius: 5px;
       margin-right: 5px;
       transition: margin-right .5s;
+      cursor: pointer;
     }
   }
 
@@ -66,6 +67,37 @@ header {
   float: left;
   margin-right: 25px;
   background-color: blue;
+}
+
+img {
+  margin: 0 auto;
+  display: block;
+}
+
+.carosel-control {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  background-color: rgba(0,0,0,.5);
+  border: 1px solid rgba(0,0,0,0);
+  border-radius: 50%;
+  margin-top: 175px;
+}
+
+#cleft {
+  left: -50px;
+}
+
+#cright {
+  right: -50px;
+}
+
+#cimg2 {
+  display: none;
+}
+
+#cimg3 {
+  display: none;
 }
 
 footer {
